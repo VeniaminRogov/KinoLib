@@ -1,165 +1,162 @@
-.header a, a:hover {
-	color: #f0ad4e;
-	text-decoration: none;
+.header a,
+a:hover {
+	color: #f0ad4e; /*Свойство, устанавливающее цвет элемента*/
+	text-decoration: none; /*Свойство, уберающее подчеркиване текста*/
 }
 
 .header h1 {
-	letter-spacing: 15px;
-	font-size: 300%;
+	letter-spacing: 15px; /*Межбуквенный интервал*/
+	font-size: 300%; /*Размер шрифта*/
 }
 
 .header p {
-	color: white !important;
-	font-size: 90%;
-	letter-spacing: 3px;
+	color: white !important; /*Свойство, устанавливающее за цвет элемента,
+	Свойство !important не позволяет браузеру переопределить свойсто элемента*/
+	font-size: 90%; /*Размер шрифта*/
+	letter-spacing: 3px; /*Межбуквенный интервал*/
 }
 
-
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    color: #fff;
-    background-color: #346270;
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+	color: #fff; /*Свойство, устанавливающее за цвет элемента*/
+	background-color: #346270; /*Свойство, устанавливающее за цвет заднего фона элемента*/
 }
 
-.nav-pills>li>a {
-	color: #fff;
+.nav-pills > li > a {
+	color: #fff; /*Свойство, устанавливающее цвет элемента*/
 }
 
-.nav-pills>li>a:hover {
-	background-color: #346270;
+.nav-pills > li > a:hover {
+	background-color: #346270; /*Свойство, устанавливающее цвет заднего фона элемента*/
 }
-
 
 .navbar-inverse {
-    padding: 1%;
-    border-radius: 0;
+	padding: 1%; /*Свойство, устанавливающее внутренний отступ элемента*/
+	border-radius: 0; /*Устанавливает радиус скругления уголков рамки*/
 }
-
+/*Стили для маленьких экранов/телефонов*/
 @media (max-width: 767px) {
-	.nav-pills>li {
-		float: none;
+	/*Свойство, которое устанавливает при каком размере экрана будут рабоать стили*/
+	.nav-pills > li {
+		float: none; /*Определяет, по какой стороне будет выравниваться элемент, при этом остальные элементы будут обтекать его с других сторон*/
 	}
 
 	.nav-pills {
-		text-align: center;
+		text-align: center; /*Свойсвто, которое устанавливает элемент по заданному знгачению*/
 	}
 
-	.header h1 { 
-	    font-size: 280%;
-	    letter-spacing: 5px;
+	.header h1 {
+		font-size: 280%; /*Размер шрифта*/
+		letter-spacing: 5px; /*Межбуквенный интервал*/
 	}
 
 	.header {
-		text-align: center;
+		text-align: center; /*Свойсвто, которое устанавливает элемент по заданному знгачению*/
 	}
-} 
-
+}
 
 .clear {
-	clear: both;
-	height: 63px;
+	clear: both; /*Свойство, которое устанавливает с какой стороны элемента запрещено обтекание другими элементами*/
+	height: 63px; /*Свойство, которое устанавливает ширину элемента*/
 }
 
 .wrapper {
-	min-height: 100%;
+	min-height: 100%; /*Свойство, которое задаёт минимальную высоту элемента*/
 }
 
-html, body {
-	height: 100%;
+html,
+body {
+	height: 100%; /*Свойство, устанавливающее высоту элемениа*/
 }
-
 
 .films_block {
-	text-align: center;
+	text-align: center; /*Свойсвто, которое устанавливает элемент по заданному знгачению*/
 }
 
 .films_block img {
-	margin-bottom: 5%;
-	border-radius: 5px;
-	border: solid 5px #dad7d5;
-	width: 100%;
+	margin-bottom: 5%; /*Свойство, устанавливающее нижний отступ элемента снизу*/
+	border-radius: 5px; /*Свойство, загругляющее границы элемента */
+	border: solid 5px #dad7d5; /*Свойство позволяет одновременно установить толщину, стиль и цвет границы сверху элемента*/
+	width: 100%; /*Свойство, устанавливающее ширину элемента*/
 }
 
 .film_label {
-	padding: 2%;
-	margin-bottom: 4%;
+	padding: 2%; /*Свойство, устанавливающее внутренние отступы элемениа*/
+	margin-bottom: 4%; /*Устанавливает величину отступа от нижнего края элемента*/
 }
 
 .margin-8 {
-	margin-top: 8%;
+	margin-top: 8%; /*Устанавливает величину отступа от верхнего края элемента*/
 }
 
-
 .panel {
-	border: none;
+	border: none; /*Универсальное свойство позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента*/
 }
 
 .panel-body {
-	background-color: #f9f9f9;
+	background-color: #f9f9f9; /*Свойство, устанавливающее за цвет заднего фона элемента*/
 }
 
-.panel-info>.panel-heading {
-	background-color: #f0ad4e;
-	color: white;
-	border-color: transparent;
+.panel-info > .panel-heading {
+	background-color: #f0ad4e; /*Свойство, устанавливающее за цвет заднего фона элемента*/
+	color: white; /*Свойство, устанавливающее цвет элемента*/
+	border-color: transparent; /*Устанавливает цвет границы на разных сторонах элемента*/
 }
 
 .sidebar-header {
-	font-size: 120%;
-	letter-spacing: 2px;
+	font-size: 120%; /*Размер шрифта*/
+	letter-spacing: 2px; /*Межбуквенный интервал*/
 }
 
-
 .form-control {
-	border-radius: 0px;
+	border-radius: 0px; /*Устанавливает радиус скругления уголков рамки*/
 }
 
 .input-lg {
-	font-size: 14px;
+	font-size: 14px; /*Размер шрифта*/
 }
 
 .list-group-item-warning {
-	color: #8a6d3b;
-	background-color: #f9f9f9;
+	color: #8a6d3b; /*Свойство, устанавливающее цвет элемента*/
+	background-color: #f9f9f9; /*Свойство, устанавливающее за цвет заднего фона элемента*/
 }
 
 .badge {
-	background-color: #000000;
+	background-color: #000000; /*Свойство, устанавливающее за цвет заднего фона элемента*/
 }
 
-
 .info-block {
-	font-size: 120%;
+	font-size: 120%; /*Размер шрифта*/
 }
 
 .info-block .badge {
-	font-size: 80%;
+	font-size: 80%; /*Размер шрифта*/
 }
 
-.info-block span{
-	margin-right: 3%;
+.info-block span {
+	margin-right: 3%; /*Свойство, устанавливающее правый отступ элемента снизу*/
 }
 
 textarea.form-control {
-	height: 200px;
+	height: 200px; /*Свойство, которое задаёт высоту элемента*/
 }
 
-
-.table tbody>tr>td.vert-align {
+.table tbody > tr > td.vert-align {
 	vertical-align: middle;
 }
 
-
 footer {
-	color: #666;
-	background: #222;
-	padding: 17px 0 18px 0;
-	border-top: 1px solid #000;
+	color: #666; /*Свойство, устанавливающее цвет элемента*/
+	background: #222; /*Свойство, устанавливающее цвет заднего фона элемента*/
+	padding: 17px 0 18px 0; /*Свойство, устанавливающее внутренние отступы элемениа*/
+	border-top: 1px solid #000; /*Свойство позволяет одновременно установить толщину, стиль и цвет границы сверху элемента*/
 }
 
 footer a {
-	color: #999;
+	color: #999; /*Свойство, устанавливающее цвет элемента*/
 }
 
 footer a:hover {
-	color: #efefef;
+	color: #efefef; /*Свойство, устанавливающее цвет элемента*/
 }
